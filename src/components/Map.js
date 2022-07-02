@@ -9,7 +9,7 @@ const style = {
 const Map = ()=>{
 
     const {isLoaded} = useLoadScript({
-        googleMapsApiKey: 'AIzaSyDkSsXy95fjJv3vVBApVdycTIJLCVEdJtE'
+        googleMapsApiKey: ''
     })
 
     if(!isLoaded) return <div>Loading...</div>
