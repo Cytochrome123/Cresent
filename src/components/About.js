@@ -1,3 +1,4 @@
+// import {Link} from 'react-router-dom'
 // import titleSign from '../../public/assets/images/app/title-icon-2.png'
 
 const About = ()=>{
@@ -30,6 +31,11 @@ const About = ()=>{
                                 </div>
                             </div>
                             {/* <!-- info ends --> */}
+
+                            <div className="dtr-btn wow fadeInUp mt-5" data-wow-delay="0.8s"> 
+                                {/* <Link >REa</Link> */}
+                                <a href="#">Read More !<span><i className="icon-arrow-right" aria-hidden="true"></i></span> </a>
+                            </div>
                             
                             {/* <!-- image here-->  */}
                         </div>

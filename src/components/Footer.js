@@ -10,11 +10,11 @@ const Footer = ()=>{
             <div class="row"> 
                 
                 {/* <!-- column 1 starts --> */}
-                <div class="col-12 col-lg-6 bg-trans-dark-blue color-white dtr-py-7 dtr-px-5 dtr-rounded-left">
+                <div class="col-12 col-lg-6 bg-grey dtr-py-7 dtr-px-5 dtr-rounded-left">
                     <div class="d-flex dtr-mb-4">
                         <div class="dtr-mr-5">
-                            <h2>Write to Us</h2>
-                            <p>We've got you</p>
+                            <h2 className='color-theme'>Get In Touch</h2>
+                            <i className='color-theme'>We've got you</i>
                         </div>
                         {/* <!-- icon starts -->  */}
                         <span class="dtr-icon-with-bg dtr-icon-blue ml-auto"><i class="icon-envelope-open-text"></i></span> 
@@ -53,7 +53,7 @@ const Footer = ()=>{
                 {/* <!-- column 1 ends -->  */}
 
                 {/* <!-- column 2 starts --> */}
-                <div class="col-12 col-lg-6 bg-grey dtr-py-7 dtr-px-5 dtr-rounded-right text-size-md">
+                <div class="col-12 col-lg-6 bg-trans-dark-blue color-white dtr-py-7 dtr-px-5 dtr-rounded-right text-size-md">
                     {/* <p class="text-size-xl dtr-mb-4">100% Satisfaction Guaranteed</p> */}
                     {/* <p class="dtr-mb-5"> Lorem ipsum dolor sit amet eiusmod tempor labore dolore magna aliqua. Ut enim ad minimo laboris ut aliquip ex ea commodo consequat. </p> */}
                     {/* <p class="text-size-xl dtr-mb-4">What will be the next step?</p> */}

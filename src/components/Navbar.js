@@ -8,7 +8,7 @@ const Navbar = ()=>{
                         {/* <!-- light logo -->  */}
                         <a className="navbar-brand logo-light" href="#home"><img src="assets/images/crescent_logo.png" alt="logo" /></a> 
                         {/* <!-- dark logo -->  */}
-                        <a className="navbar-brand logo-dark" href="#home"><img src="assets/images/logo-sticky.png" alt="logo" /></a> 
+                        <a className="navbar-brand logo-dark" href="#home"><img src="assets/images/crescent_logo-sticky.png" alt="logo" /></a> 
                         
                         {/* <!-- nav menu toggler--> */}
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon"></span> </button>
